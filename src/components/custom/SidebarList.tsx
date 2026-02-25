@@ -5,6 +5,7 @@ import {
   MdHealthAndSafety,
   MdOutlineInventory,
   MdConfirmationNumber,
+  MdImportExport,
 } from "react-icons/md";
 import { TbTopologyFullHierarchy } from "react-icons/tb";
 import { RiAlarmWarningFill } from "react-icons/ri";
@@ -126,7 +127,7 @@ export const listItems: SidebarItem[] = [
   },
   {
     label: "Nokia Traffic",
-    Icon: MdHealthAndSafety,
+    Icon: MdImportExport,
     image: networkTraffic,
     link: "/networktraffic",
   },
