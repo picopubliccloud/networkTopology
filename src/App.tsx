@@ -48,7 +48,6 @@ import TicketDetailsPage from "./components/ticketing/TicketDetailsPage";
 import CreateTicketPage from "./components/ticketing/CreateTicketPage";
 import AllLinkHistory from "./components/custom/AllLinkHistory";
 import UploadTicketAttachmentsPage from "./components/ticketing/UploadTicketAttachmentsPage";
-
 function Layout({
   children,
   selectedCity,

@@ -21,7 +21,7 @@ import inventory from "../../assets/dashboard/inventory.png";
 import ticket from "../../assets/dashboard/ticket.png";
 import { FaCloud } from "react-icons/fa";
 import openstack from "../../assets/dashboard/openstack.png";
-
+import networkTraffic from "../../assets/dashboard/network-traffic-monitor.png";
 interface SidebarStatus {
   onHover: boolean;
 }
@@ -124,6 +124,13 @@ export const listItems: SidebarItem[] = [
     image: serverhealth,
     link: "/serverhealth",
   },
+  {
+    label: "Nokia Traffic",
+    Icon: MdHealthAndSafety,
+    image: networkTraffic,
+    link: "/networktraffic",
+  },
+  
   { label: "Alarm", Icon: RiAlarmWarningFill, image: alarm, link: "/alarm" },
   {
     label: "Syslog",
